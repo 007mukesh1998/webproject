@@ -33,7 +33,7 @@ app.get("/weather",(req,res) => {
 
 app.get("*",(req,res) => {
     res.render("404error",{
-    errorMsg:'0pps ! Page Not Found'
+    errorMsg:'0pps ! Page Not Found go back'
     })
 });
 
